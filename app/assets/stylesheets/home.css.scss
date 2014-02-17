@@ -1,0 +1,265 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+	
+/*@media screen and (min-width: 800px) and (max-width: 1006px) {
+		body {display: none}
+}*/
+
+
+
+html {
+	
+	max-width: 1000px;
+	width:100%;
+	height: 100%;
+	min-width: 768px;
+	
+}
+body {
+	max-width: 1000px;
+	min-width: 775px;
+	width: 100%;
+	height: 100%;
+	padding-right: 20%;
+	/*margin: auto;*/
+	background: #ee540f;
+	 /* Old browsers */
+	background: -moz-linear-gradient(left,  #ee540f 1%, #ee540f 88%, #ee540f 93%, #ee540f 95%, #ee540f 97%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#ee540f), color-stop(88%,#ee540f), color-stop(93%,#ee540f), color-stop(95%,#ee540f), color-stop(97%,#ee540f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ee540f 1%,#ee540f 88%,#ee540f 93%,#ee540f 95%,#ee540f 97%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ee540f 1%,#ee540f 88%,#ee540f 93%,#ee540f 95%,#ee540f 97%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ee540f 1%,#ee540f 88%,#ee540f 93%,#ee540f 95%,#ee540f 97%); /* IE10+ */
+	background: linear-gradient(to right,  #ee540f 1%,#ee540f 88%,#ee540f 93%,#ee540f 95%,#ee540f 97%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee540f', endColorstr='#ee540f',GradientType=1 ); /* IE6-9 */
+}
+
+#web {
+	position: relative;
+	width:100%;
+	height: 100%;
+	max-width: 1000px;
+	min-width: 768;
+	margin: 0% 0% 0% 0%;
+	padding: 0%;
+}
+
+#Lf_nav {
+	-webkit-perspective: 800px;
+	float: left;
+	clear: both;
+	position: fixed;
+	background-color: #040418;
+	height: 100%;
+	width: 100%;
+	max-width: 75px;
+	margin: 0%;
+	z-index: 100
+
+}
+
+#nav_list {
+	-webkit-perspective: 800px;
+	list-style: none;
+	font-size: 1.000em;
+	font-weight: bold;
+	color: lightgray;
+	text-align: center;
+	border-top: 1px solid 000;
+	margin-top: 0%;
+	padding: 6%;
+	width: 100%;
+	max-width: 100px;
+	height: 100%;
+	background: #040418;
+	 /* Old browsers */
+	background: -moz-linear-gradient(left,  #040418 8%, #040420 50%, #040418 94%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(8%,#040418), color-stop(50%,#040420), color-stop(94%,#040418)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #040418 8%,#040420 50%,#040418 94%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #040418 8%,#040420 50%,#040418 94%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #040418 8%,#040420 50%,#040418 94%); /* IE10+ */
+	background: linear-gradient(to right,  #040418 8%,#040420 50%,#040418 94%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040418', endColorstr='#040418',GradientType=1 ); /* IE6-9 */
+	box-shadow: 5px 15px 5px black;
+	box-shadow: 2px 15px 3px 3px black;
+	
+}
+
+
+a:link {
+	text-decoration: none;
+	color: lightgray;
+}
+a:visited {
+	text-decoration: none;
+	color: lightgray;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightgray;
+}
+a:active {
+	text-decoration: none;
+	color: lightgray;
+}
+
+#nav_list li {
+	margin-top: 10%;
+	padding: 1% 1.8%;
+	max-height: 90%;
+	border-bottom: 1px solid rgba(255, 102, 51, 0.3);
+
+}
+
+.nav_list img  {
+	text-align: center;
+	margin: 1% 1%;
+	padding: 1% 1%;
+	width: 70%;
+	height: 40%;
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-ms-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	-webkit-transition-delay: .2s;
+	-moz-transition-delay: .2s;
+	-ms-transform-delay: .2s;
+	-o-trasition-delay: .2s;
+	transition-delay: .2s;
+	}
+
+
+
+
+.nav_list img:hover {
+	-webkit-transform: scale(1.7);
+	-moz-transform: scale(1.7);
+	-ms-transform: scale(1.7);
+	-o-transform: scale(1.7);
+	transform: scale(1.7);
+	
+}
+
+
+
+.top {
+	min-height: 5%;
+	margin-top: 10%;
+	padding-top: 5%;
+}
+
+#content-top {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0% 0% 2.5% 10%;
+	z-index: 20;
+	
+
+}
+
+#content-bottom {
+	margin-left: 10%;
+	margin-top: 0%;
+}
+
+#grid-header {
+	position: fixed;
+	top: 0%;
+	z-index: 29;
+	margin-left: 0%;
+	margin-bottom: .5%;
+	width: 100%;
+	max-width: 900px;
+	min-width: 100px;
+	height: 7.5%;
+	background-color: #ee540f;
+	box-shadow: 0px 5px 5px -5px #000;
+	box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+}
+#grid-header p {
+	position: absolute;
+	margin: 1%;
+	padding: 1%;
+	padding-top: 0%;
+	padding-bottom: 5%;
+}
+
+#grid-home {
+	color: #040418;
+	font-size: 1.300em;  /*21px*/
+	margin-top: .1%; /*1px*/
+	margin-left: 6%; /*50px*/
+	margin-bottom: 46%; /*460*/
+	width: 100%; /*1000px*/
+	max-width: 768px;
+	min-width: 100px;
+	height: auto;
+	padding-top: 7.5%;
+	padding-bottom: 2.5%;
+	
+	background-color: lightgray;
+	box-shadow: inset 0px 5px 5px black;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	z-index: 31;
+	box-sizing: border-box;
+	 -mozbox-sizing: border-box;
+}
+#grid-home p {
+	padding-left: 1%;
+	margin: 0%;
+}
+
+#grid-footer {
+	position: fixed;
+	bottom: 0%;
+	z-index: 31;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	max-width: 900px;
+	min-width: 100px;
+	height: 10%;
+	background-color: #ee540f;
+	box-shadow: 0px -5px 5px -5px #000;
+	box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+}
+#grid-footer p {
+	/*position: absolute;*/
+	margin: .5%;
+	padding: 1%;
+	padding-top: 2.5%;
+}
+
+#grid-team {
+	color: #040418;
+	font-size: 1.313em;
+	margin-top: .1%;
+	margin-left: 6%;
+	margin-bottom: 10%;
+	width: 100%;
+	max-width: 768px;
+	min-width: 100px;
+	height: auto;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-color: lightgray;
+	box-shadow: inset 0px 1px 5px black;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	z-index: 29;
+	box-sizing: border-box;
+	 -mozbox-sizing: border-box;
+}
+#grid-team p {
+	padding-left: 1%; 
+	margin: 0%;	
+	padding-bottom: 3%;
+
+}

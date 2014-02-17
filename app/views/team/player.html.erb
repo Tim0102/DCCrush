@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>players</title>
+
+
+</head>
+<body>
+
+<% for athlete in @team.players -%>
+ <p>Member: <%= athlete.name %> plays <%= athlete.position %> and is <%= athlete.age %></p>
+ <% end -%>
+
+<%= debug(@team) %>
+
+ 
+
+
+
+</body>
+
+</html>
